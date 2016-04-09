@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2015
 
 
 
@@ -27,7 +27,7 @@ rss:
 menu:
   home: /
   #categories: /categories
-  #about: /about
+  about: http://cwchang.me
   archives: /archives
   tags: /tags
   #commonweal: /404.html
@@ -56,9 +56,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
+# scheme: Muse
+# scheme: Mist
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -117,8 +117,8 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  GitHub: https://github.com/lazywei
 
 
 # Social Links Icons
@@ -138,7 +138,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: https://graph.facebook.com/v2.5/1579404899/picture?type=square
 
 
 # Table Of Ccontents in the Sidebar
@@ -191,7 +191,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 
 # Automatically scroll page to section which is under <!-- more --> mark.
